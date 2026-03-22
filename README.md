@@ -1,18 +1,13 @@
-## Getting Started
+# Exercício Set – Ordenação de Cores
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este exercício trabalha com `Set` em Java, mostrando como manipular e ordenar coleções de cores.  
 
-## Folder Structure
+O código realiza:
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Criação de um `LinkedHashSet` com cores do arco-íris.
+2. Exibe todas as cores e a quantidade de elementos.
+3. Mostra as cores em ordem alfabética (`TreeSet`).
+4. Mostra as cores em ordem inversa de inserção.
+5. Exibe cores que começam com a letra “V”.
+6. Remove todas as cores que não começam com “V”.
+7. Limpa o conjunto e verifica se está vazio.
